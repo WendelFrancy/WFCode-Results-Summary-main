@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+  
+*{margin:0; padding: 0; box-sizing: border-box;}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.maincard {
+    display: flex;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 20px 1px hsl(221, 100%, 96%);
+}
+
+.lside {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 20rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.lsidet1 {
+    font-size: 22px;
+    color: hsl(241, 100%, 89%);
+}
+
+.ball {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 12rem;
+    height: 12rem;
+    border-radius: 10rem;
+}
+
+.ball h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 60px;
+}
+
+.ball h2 {
+    font-size: 15px;
+    color: hsla(221, 100%, 96%, 50%);
+}
+
+.lsidet2 {
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+}
+
+.lsidepara {
+    font-size: 17px;
+    max-width: 15rem;
+    color: hsla(221, 100%, 96%, 80%);
+}
+
+.rside {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 20rem;
+}
+
+.rside h1 {
+    color: hsl(224, 30%, 27%);
+    margin-bottom: 0.5rem;
+}
+
+.rside div{
+    display: flex;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.rside p {
+    color: hsl(222, 12%, 55%);
+}
+.rside b {
+    color: hsl(0, 5%, 16%);
+}
+
+.rstreac h2{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 3.5rem 0 1rem;
+    color: hsla(0, 100%, 67%);
+}
+
+.rstreac {
+    background-color: hsla(0, 100%, 67%, 10%);
+}
+
+.rstmrm h2{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 3.6rem 0 1rem;
+    color:hsla(39, 100%, 56%);
+}
+
+.rstmrm {
+    background-color:hsla(39, 100%, 56%, 10%);
+}
+
+.rstverb h2{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 4.5rem 0 1rem;
+    color:hsla(166, 100%, 37%);
+}
+
+.rstverb {
+    background-color:hsla(166, 100%, 37%, 10%);
+}
+
+.rstvsl h2{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 4.7rem 0 1rem;
+    color:hsla(234, 85%, 45%);
+}
+
+.rstvsl {
+    background-color:hsla(234, 85%, 45%, 10%);
+}
+
+.btncont {
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-size: 15px;
+    height: 3rem;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 4rem;
+}
+
+.btncont:hover{ 
+    cursor: pointer;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+.attribution { font-size: 11px; text-align: center; padding-top: 2rem; font-weight: 800;}
+.attribution a { color: hsl(228, 45%, 44%); }

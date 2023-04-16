@@ -1,0 +1,30 @@
+@media screen and (max-width:42rem) {
+    .maincard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .lside {
+        height: 25rem;
+        width: 24rem;
+        border-radius: 0 0 2rem 2rem;
+    }
+
+    .ball {
+        width: 9rem;
+        height: 9rem;
+    }
+    
+    .lsidepara {
+        max-width: 18rem;
+    }
+
+    .rside {
+        padding: 2rem 0 2rem 0;
+    }
+
+    .rside h1 {
+        font-size: 20px;
+    }
+}
